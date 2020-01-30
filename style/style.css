@@ -12,6 +12,11 @@ body{
     display:flex;
 }
 
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 .logo {
     width: 67px;
     height: 67px;
