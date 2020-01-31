@@ -170,3 +170,78 @@ nav li a:hover{
     text-align: center;/*расположение текста*/
     margin: 0 7%;/*внешние отступы*/
 }
+.left{
+	float:left;
+	width:50%;
+	overflow: hidden;
+}	
+.right{
+	float:right;
+	width:50%;
+	overflow: hidden;
+}
+		.news .left, .news .right{
+			background-color: #222;
+			color: #fff;
+			height: 450px;
+			overflow: hidden;
+		}
+		.news .right{
+			background-color: #f3f3f3;	
+			color:#000;
+		}
+		.news .news-img1{
+			width: 100%;
+			height: 100%;
+			background:url('/creatives/img/news-1.jpg') no-repeat;
+			background-size: cover;
+			-webkit-transition-duration: 2s;
+		    -o-transition-duration: 2s;
+		    -moz-transition-duration: 2s;
+		    transition-duration: 2s;
+		}
+		.news-img2{
+			width: 100%;
+			height: 100%;
+			background:url('/creatives/img/news-2.jpg') no-repeat;
+			background-size: cover;
+			-webkit-transition-duration: 2s;
+		    -o-transition-duration: 2s;
+		    -moz-transition-duration: 2s;
+		    transition-duration: 2s;			
+		}
+		.news .news-img1:hover, .news-img2:hover{
+			transform: scale(1.2);
+			-webkit-transition-duration: 2s;
+		    -o-transition-duration: 2s;
+		    -moz-transition-duration: 2s;
+		    transition-duration: 2s;
+		}
+		.news-txt{
+		    width: 90%;
+		    margin: 0 auto;
+		    padding-top: 80px;
+		    padding-bottom: 80px;
+		    padding-left: 2%;
+   			padding-right: 2%;
+		}
+		.news h2{
+			font-size: 1.5625em;
+			margin:10px 0;
+		}
+		.news .date, .news .section {
+			display: inline-block;
+			font-size: 0.75em;
+			font-style: italic;
+			margin-right: 10px;
+		}
+		.news .section  {
+			border-left: 1px solid ;
+			padding-left: 10px;
+		}
+		.news p{
+			margin-top: 30px;
+			line-height: 2;
+			height: 210px;
+    		overflow: hidden;
+		}
