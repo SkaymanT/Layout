@@ -171,81 +171,59 @@ nav li a:hover{
     margin: 0 7%;/*внешние отступы*/
 }
 
-
-
-
 .left{
-	float:left;
-	width:50%;
-	overflow: hidden;
+	float:left; /*расположение объекта на странице*/
+	width:50%; /*ширина*/
 }	
 .right{
-	float:right;
-	width:50%;
-	overflow: hidden;
+	float:right;/*расположение объекта на странице*/
+	width:50%;/*ширина*/
 }
-		.news .left, .news .right{
-			background-color: #222;
-			color: #fff;
-			height: 450px;
-			overflow: hidden;
-		}
-		.news .right{
-			background-color: #f3f3f3;	
-			color:#000;
-		}
-		.news .news-img1{
-			width: 100%;
-			height: 100%;
-			background:url('../img/news-1.jpg') no-repeat;
-			background-size: cover;
-			-webkit-transition-duration: 2s;
-		    -o-transition-duration: 2s;
-		    -moz-transition-duration: 2s;
-		    transition-duration: 2s;
-		}
-		.news-img2{
-			width: 100%;
-			height: 100%;
-			background:url('../img/news-2.jpg') no-repeat;
-			background-size: cover;
-			-webkit-transition-duration: 2s;
-		    -o-transition-duration: 2s;
-		    -moz-transition-duration: 2s;
-		    transition-duration: 2s;			
-		}
-		.news .news-img1:hover, .news-img2:hover{
-			transform: scale(1.2);
-			-webkit-transition-duration: 2s;
-		    -o-transition-duration: 2s;
-		    -moz-transition-duration: 2s;
-		    transition-duration: 2s;
-		}
-		.news-txt{
-		    width: 90%;
-		    margin: 0 auto;
-		    padding-top: 80px;
-		    padding-bottom: 80px;
-		    padding-left: 2%;
-   			padding-right: 2%;
-		}
-		.news h2{
-			font-size: 1.5625em;
-			margin:10px 0;
-		}
-		.news .date, .news .section {
-			display: inline-block;
-			font-size: 0.75em;
-			font-style: italic;
-			margin-right: 10px;
-		}
-		.news .section  {
-			border-left: 1px solid ;
-			padding-left: 10px;
-		}
-		.news p{
-			margin-top: 30px;
-			line-height: 2;
-			height: 210px;
-    		overflow: hidden;
-		}
+.news .left, .news .right{
+    background-color: #222;/*цвет фона*/
+	color: #fff;/*цвет*/
+    height: 450px;/*высота*/
+}
+.news .right{
+	background-color: #f3f3f3;/*цвет фона*/	
+    color:#000;/*цвет*/
+}
+.news .news-img1{
+	width: 100%;/*ширина*/
+	height: 100%;/*высота*/
+	background:url('../img/news-2.jpg') no-repeat;/*фоновая картинка без повторений*/
+	background-size: cover;/*на всю область*/
+}
+.news-img2{
+    width: 100%;/*ширина*/
+	height: 100%;/*высота*/
+	background:url('../img/news-1.jpg') no-repeat;/*фоновая картинка без повторений*/
+    background-size: cover;/*на всю область*/
+}
+.news-txt{
+    width: 90%;/*ширина*/
+    margin: 0 auto;/*внешние отступы*/
+	padding-top: 80px;/*внутренние отступы*/
+	padding-bottom: 80px;/*внутренние отступы*/
+	padding-left: 2%;/*внутренние отступы*/
+   	padding-right: 2%;/*внутренние отступы*/
+}
+.news h2{
+	font-size: 1.5625em;/*размер*/
+	margin:10px 0;/*внешние отступы*/
+}
+.news .date, .news .section {
+	display: inline-block;/*как элемент должен быть показан в документе(показывается как в линию блок)*/
+	font-size: 0.75em;/*размер*/
+	font-style: italic;/*стиль*/
+	margin-right: 10px;/*внешние отступы*/
+}
+.news .section{
+	border-left: 1px solid ;/*нижняя граница*/
+    padding-left: 10px;/*внутренние отступы*/
+}
+.news p{
+    margin-top: 30px;/*внешние отступы*/
+    line-height: 2;/*Устанавливает межстрочный интервал текста*/
+    height: 210px;/*высота*/
+}
