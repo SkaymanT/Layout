@@ -227,55 +227,57 @@ nav li a:hover{
     line-height: 2;/*Устанавливает межстрочный интервал текста*/
     height: 210px;/*высота*/
 }
+
 .blogs{
     text-align: center;/*расположение текста*/
-    padding-top: 100px;/*оступ сверху*/
+    padding-top: 50px;/*отступ сверху*/
     background-color: #fff;/*цвет фона*/
-    height:900px;/*высота*/
-    padding-bottom: 1%;
+    height:100vh;/*высота*/
+    padding-bottom: 5%;/*отступ снизу*/
 }
 .blogs .heading h2 {
-    font-size: 2.5em;
-    text-transform: uppercase;
-    margin: -123px 0 123px 0;
+    font-size: 2.5em;/*Размер*/
+    text-transform: uppercase;/*Большими буквами*/
+    margin: -190px 0 123px 0;/*внешний отступ*/
 }
 
 .blogs .heading h3 {
-    font-size: 2.1875em;
-    font-stretch: condensed;
-    letter-spacing: 5px;
-    padding: 2% 1% 0 1%;
+    font-size: 1.9em;/*Размер*/
+    font-stretch: condensed;/*узость начертания*/
+    letter-spacing: 3px;/*Определяет интервал между символами в пределах элемента*/
+    padding: 2% 1% 0 1%;/*внутрений отступ*/
 }
 
     
 .blog{
-    display: flex;
-    justify-content: space-around;
+    display: flex; /*как элемент должен быть показан в документе(показывается как в линию блок)*/
+    justify-content: space-around; /*Работает только с флекс распределяет пространство вокруг флекс-элементов*/
 }
 
 .blog-section {
-    float: left;
-    width: 23%;
-    margin: 50px 5px 0 5px;
+    float: left; /*расположение объекта на странице*/
+    width: 23%;/*ширина*/
+    margin: 50px 5px 0 5px;/*внешний отступ*/
+}
 }
 .blog-section:hover{
-    box-shadow: 0 0 10px -1px #11749e;
+    box-shadow: 0 0 10px -1px #11749e;/*Добавляет тень к элементу*/
 }
 .blog-section h3{
-    font-size: 1.125em;
-    padding: 20px 0;
-    color:#11749e;
-    text-transform: uppercase;
+    font-size: 1.125em;/*размер*/
+    padding: 20px 0;/*внутрений отступ*/
+    color:#11749e;/*цвет*/
+    text-transform: uppercase;/*Большими буквами*/
 }
 .blog-section p{
-    text-align: center;
-    line-height: 1.7;
-    margin:0 10px;
-    height: 200px;
-    overflow: hidden;
-    color: #222;
+    text-align: center;/*центрирование */
+    line-height: 1.5;/*Устанавливает межстрочный интервал текста*/
+    margin:0 10px;/*внешний отступ*/
+    height: 200px;/*высота*/
+    overflow: hidden;/*управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров.*/
+    color: #222;/*цвет*/
 }
 .blog-img {
-    height: 280px;
-    overflow: hidden;
+    height: 300px;/*высота*/
+    overflow: hidden;/*управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров.*/
 }
