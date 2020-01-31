@@ -11,18 +11,18 @@ body{
 }
 .fixed1{
     margin: -65px;/*внешние отступы*/
-    border-bottom: 2px solid #757575;
+    border-bottom: 2px solid #757575;/*граница снизу*/
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1200px;/*ширина*/
     margin: 0 auto;/*внешние отступы*/
     
 }
 
 .logo {
-    width: 67px;
-    height: 67px;
+    width: 67px;/*ширина*/
+    height: 67px;/*высота*/
     background-color: #11749e;/*цвет фона*/
     box-shadow: 10px 10px #fff;
     margin-top: 20px;/*внешние отступы*/
@@ -53,15 +53,15 @@ nav{
     float: right;   /*расположение объекта на странице*/
 }
 nav ul {
-    display: block;
+    display: block;/*как элемент должен быть показан в документе(показывается как блочный)*/
     padding: 0;/*внутрений отступ*/
-    margin: 0;
+    margin: 0;/*внешний отступ*/
     
 }
 
 nav li{
     float: left;/*расположение объекта на странице*/
-    display: block;
+    display: block;/*как элемент должен быть показан в документе(показывается как блочный)*/
     text-decoration: none;/*подчеркивание убрали*/
     padding: 50px 0px;/*внутрений отступ*/
 }
