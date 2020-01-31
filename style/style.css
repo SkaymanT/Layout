@@ -94,7 +94,7 @@ nav li a:hover{
     text-transform: uppercase;/*Большие буквы*/
     letter-spacing: 20px;/*Разбег между буквами*/
     padding-left: 20px;/*Отступ слева*/
-    margin-bottom: 120px;/*Отступ снизу*/
+    margin-bottom: 220px;/*Отступ снизу*/
 }
 .scroll {
     margin: 0 auto;/*центрировать*/
@@ -357,7 +357,7 @@ nav li a:hover{
 
 .our-team{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 50px;
     background-color: #fff;
     height:850px;
 }
