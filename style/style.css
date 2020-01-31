@@ -5,72 +5,72 @@ header {
     height: 120vh; /*высота*/
 }
 body{
-    padding: 0;
-    margin: 0;
+    padding: 0;/*внутрений отступ*/
+    margin: 0;/*внешние отступы*/
     font-family: Arial, Helvetica, sans-serif;/*Стиль шрифта*/
 }
 .fixed1{
-    margin: -65px;
+    margin: -65px;/*внешние отступы*/
     border-bottom: 2px solid #757575;
 }
 
 .container {
 	max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto;/*внешние отступы*/
     
 }
 
 .logo {
     width: 67px;
     height: 67px;
-    background-color: #11749e;
+    background-color: #11749e;/*цвет фона*/
     box-shadow: 10px 10px #fff;
-    margin-top: 20px;
-    float: left;
-    margin-left:20px;
+    margin-top: 20px;/*внешние отступы*/
+    float: left;/*расположение объекта на странице*/
+    margin-left:20px;/*внешние отступы*/
 }
     .logo p{
         font-size: 1.875em;/*размер объекта*/
-        color: #fff;
-        padding: 17px 12px;
-        margin: 0px 0px;
+        color: #fff;/*цвет*/
+        padding: 17px 12px;/*внутрений отступ*/
+        margin: 0px 0px;/*внешние отступы*/
     }
     .socials {
-        float: right;
-        margin-top: 22px;
-        padding: 20px;
-        font-size: 0.95em;
-        margin-right: 10px;
+        float: right;/*расположение объекта на странице*/
+        margin-top: 22px;/*внешние отступы*/
+        padding: 20px;/*внутрений отступ*/
+        font-size: 0.95em;/*размер объекта*/
+        margin-right: 10px;/*внешние отступы*/
     }
     .socials i{
-        padding:0 10px;
+        padding:0 10px;/*внутрений отступ*/
     }
     .socials a:hover i{
-        color: #11749e;
+        color: #11749e;/*цвет*/
     }
 
 nav{
-    float: right;   
+    float: right;   /*расположение объекта на странице*/
 }
 nav ul {
     display: block;
-    padding: 0;
+    padding: 0;/*внутрений отступ*/
     margin: 0;
     
 }
 
 nav li{
-    float: left;
+    float: left;/*расположение объекта на странице*/
     display: block;
     text-decoration: none;/*подчеркивание убрали*/
-    padding: 50px 0px;
+    padding: 50px 0px;/*внутрений отступ*/
 }
 
 nav li a{
-    padding: 65px 30px;
+    padding: 65px 30px;/*внутрений отступ*/
     font-weight: 500;
-    color: #fff;
-    font-size: 1.25em;
+    color: #fff;/*цвет*/
+    font-size: 1.25em;/*размер объекта*/
     text-decoration: none;/*подчеркивание убрали*/
 }
 nav li a:hover{
@@ -78,9 +78,9 @@ nav li a:hover{
 }
 
 .slide {
-    margin-top: 35vh; 
-    text-align: center;
-    color: white;
+    margin-top: 35vh; /*Отступ cверху*/
+    text-align: center;/*расположение текста*/
+    color: white;/*цвет*/
 }
 .slide h2 {
     font-size: 9.75em;/*размер объекта*/
