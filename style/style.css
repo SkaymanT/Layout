@@ -90,38 +90,38 @@ nav li a:hover{
 }
 .slide p {
     font-size: 1.5625em;/*размер объекта*/
-    color: #11749e;
-    text-transform: uppercase;
+    color: #11749e;/*цвет*/
+    text-transform: uppercase;/*Большие буквы*/
     letter-spacing: 20px;/*Разбег между буквами*/
-    padding-left: 20px;
+    padding-left: 20px;/*Отступ слева*/
     margin-bottom: 120px;/*Отступ снизу*/
 }
 .scroll {
-    margin: 0 auto;
+    margin: 0 auto;/*центрировать*/
 }
 .scroll span { 
-    font-size: 0.8em;
+    font-size: 0.8em;/*размер объекта*/
 }
 .scroll i{
-    display: block;
-    padding: 20px;
-    border: 1px solid;
-    border-radius: 70%;
-    width: 20px;
-    height: 20px;
-    margin: 20px auto;
+    display: block;/*как элемент должен быть показан в документе(показывается как блочный)*/
+    padding: 20px;/*внутрений отступ*/
+    border: 1px solid;/*граница*/
+    border-radius: 50%;/*радиус округления*/
+    width: 20px;/*ширина*/
+    height: 20px;/*высота*/
+    margin: 20px auto;/*внешний отсуп сверху и центрирование*/
 }
 .scroll a:hover i{
-    border-color: #11749e;
-    color: #11749e;
+    border-color: #11749e;/*цвет границы*/
+    color: #11749e;/*цвет*/
 }
 
 .about{
-    height:100vh;
-    background-color: #11749e;
-    text-align: center;
-    color: #fff;
-    padding-top: 20px;
+    height:100vh;/*высота*/
+    background-color: #11749e;/*цвет фона*/
+    text-align: center;/*расположение текста*/
+    color: #fff;/*цвет шрифта*/
+    padding-top: 20px;/*отступ сверху*/
 }
 
 .heading span{
