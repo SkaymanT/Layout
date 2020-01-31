@@ -261,7 +261,7 @@ nav li a:hover{
 }
 }
 .blog-section:hover{
-    box-shadow: 0 0 10px -1px #11749e;/*Добавляет тень к элементу*/
+    box-shadow: 0 0 10px -1px #11749e; /*Добавляет тень к элементу*/
 }
 .blog-section h3{
     font-size: 1.125em;/*размер*/
