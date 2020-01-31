@@ -228,10 +228,10 @@ nav li a:hover{
     height: 210px;/*высота*/
 }
 .blogs{
-    text-align: center;
-    padding-top: 200px;
-    background-color: #fff;
-    height:900px;
+    text-align: center;/*расположение текста*/
+    padding-top: 100px;/*оступ сверху*/
+    background-color: #fff;/*цвет фона*/
+    height:900px;/*высота*/
     padding-bottom: 1%;
 }
 .blogs .heading h2 {
