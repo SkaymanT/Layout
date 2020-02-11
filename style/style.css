@@ -232,7 +232,7 @@ nav li a:hover{
     text-align: center;/*расположение текста*/
     padding-top: 50px;/*отступ сверху*/
     background-color: #fff;/*цвет фона*/
-    height:100vh;/*высота*/
+    height:130vh;/*высота*/
     padding-bottom: 5%;/*отступ снизу*/
 }
 .blogs .heading h2 {
