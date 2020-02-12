@@ -124,7 +124,7 @@ nav li a:hover{
 }
 
 .heading span{
-    font-size: 18.125em;/*размер объекта*/
+    font-size: 17.125em;/*размер объекта*/
     opacity: 0.1;/*прозрачность*/
     font-weight: bold; /*стиль ширфта*/
     font-stretch: condensed;/*узость начертания*/
@@ -132,7 +132,7 @@ nav li a:hover{
 .heading h2{
     font-size: 2.3125em;/*размер объекта*/
     text-transform: uppercase; /*Большими буквами*/
-    margin: -160px 0 80px 0;/*внешние отступы*/
+    margin: -160px 0 0 0;/*внешние отступы*/
 }
 
 .features{
@@ -446,7 +446,7 @@ form{
     margin-top: 100px;
 }
 .contacts .heading h2{
-    margin: -235px 0 115px 0;
+    margin: -235px 0 180px 0;
 }
 .contacts .heading {
     font-weight: 500;
@@ -454,7 +454,7 @@ form{
     font-size: 1.25em;/*размер объекта*/
 }
 .contacts .heading p a{
-    padding: 65px 15px;/*внутрений отступ*/
+    padding: 15px 15px;/*внутрений отступ*/
     font-weight: 500;
     color: #fff;/*цвет*/
     font-size: 1.25em;/*размер объекта*/
